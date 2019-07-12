@@ -1,0 +1,30 @@
+{
+  "name": "treolabs/skeleton",
+  "description": "Skeleton for Treo project",
+  "homepage": "https://treolabs.com",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Roman Ratsun",
+      "email": "r.ratsun@treolabs.com"
+    }
+  ],
+  "minimum-stability": "rc",
+  "require": {
+    "treolabs/treocore": "^3.20.10",
+    "treo-module/pim": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7",
+    "squizlabs/php_codesniffer": "*"
+  },
+  "scripts": {
+    "post-update-cmd": "Treo\\Composer\\Cmd::postUpdate"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.treopim.com/packages.json?id=public"
+    }
+  ]
+}
