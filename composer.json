@@ -9,7 +9,7 @@
       "email": "r.ratsun@treolabs.com"
     }
   ],
-  "minimum-stability": "rc",
+  "minimum-stability": "RC",
   "require": {
     "treolabs/treocore": "^3.20.10",
     "treo-module/pim": "*"
