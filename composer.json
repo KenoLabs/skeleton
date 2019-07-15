@@ -9,13 +9,9 @@
       "email": "r.ratsun@treolabs.com"
     }
   ],
-  "minimum-stability": "RC",
+  "minimum-stability": "stable",
   "require": {
     "treolabs/treocore": "^3.20.10"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^7",
-    "squizlabs/php_codesniffer": "*"
   },
   "scripts": {
     "post-update-cmd": "Treo\\Composer\\Cmd::postUpdate"
