@@ -11,7 +11,8 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "treolabs/treocore": "^3.20.10"
+    "treolabs/treocore": "^3.20.10",
+    "treolabs/multi-languages": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "^7",
