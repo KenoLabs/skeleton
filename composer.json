@@ -5,11 +5,20 @@
   "license": "GPL-3.0-only",
   "minimum-stability": "stable",
   "require": {
-    "treolabs/treocore": "^3.23.34",
+    "treolabs/treocore": "^3.25.0",
     "treolabs/multi-languages": "*"
   },
   "scripts": {
-    "post-update-cmd": "Treo\\Composer\\Cmd::postUpdate"
+     "pre-update-cmd": "ComposerCmd::preUpdate",
+     "post-update-cmd": "ComposerCmd::postUpdate",
+     "post-package-install": "ComposerCmd::postPackageInstall",
+     "post-package-update": "ComposerCmd::postPackageUpdate",
+     "pre-package-uninstall": "ComposerCmd::prePackageUninstall"
+  },
+  "autoload": {
+     "classmap": [
+         "composer-cmd.php"
+     ]
   },
   "repositories": [
     {
