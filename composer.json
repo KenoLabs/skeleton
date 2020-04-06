@@ -19,11 +19,5 @@
      "classmap": [
          "composer-cmd.php"
      ]
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packagist.treopim.com/packages.json?id=public"
-    }
-  ]
+  }
 }
